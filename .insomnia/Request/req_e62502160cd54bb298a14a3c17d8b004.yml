@@ -1,0 +1,55 @@
+_id: req_e62502160cd54bb298a14a3c17d8b004
+type: Request
+parentId: fld_01708f4729c847d084912c403591d30d
+modified: 1672850077165
+created: 1672849527899
+url: "{{ _.base_url }}/users/e90528ab-295c-49b9-9004-e74aa2aa9425"
+name: FindById
+description: |-
+  ```response
+  {
+  	"id": "e90528ab-295c-49b9-9004-e74aa2aa9425",
+  	"name": "Victor Menezes",
+  	"email": "victor.menezes@polijunior.com.br",
+  	"country": "Brasil",
+  	"zipCode": "07788010",
+  	"city": "Cajamar",
+  	"state": "São Paulo",
+  	"recentRole": "Estagiário",
+  	"companySector": "Tecnologia",
+  	"experience": "Júnior",
+  	"ocuppationArea": "FinTech",
+  	"phone": null,
+  	"recieveRolesInfo": null,
+  	"recieveSelfDevelopmentInfo": null,
+  	"createdAt": "2023-01-04T16:32:28.308Z",
+  	"updatedAt": "2023-01-04T16:34:06.610Z",
+  	"discTest": {
+  		"id": "ce8ea6de-291c-4548-aa11-ecbaebd1a5c4",
+  		"userId": "e90528ab-295c-49b9-9004-e74aa2aa9425",
+  		"answers": "AAAAAAAAAAABADDDBBBBCCCCCCCCCCDDDDDDDDDD",
+  		"feedback": 10,
+  		"D": 30,
+  		"I": 12.5,
+  		"S": 25,
+  		"C": 32.5,
+  		"createdAt": "2023-01-04T16:34:23.744Z",
+  		"updatedAt": "2023-01-04T16:34:23.745Z"
+  	}
+  }
+  ```
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1672849527899
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

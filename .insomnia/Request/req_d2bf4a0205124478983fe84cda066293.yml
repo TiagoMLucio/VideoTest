@@ -1,0 +1,50 @@
+_id: req_d2bf4a0205124478983fe84cda066293
+type: Request
+parentId: fld_01708f4729c847d084912c403591d30d
+modified: 1672850086681
+created: 1672847508035
+url: "{{ _.base_url }}/users/register"
+name: Register
+description: |-
+  ```response
+  {
+  	"id": "e90528ab-295c-49b9-9004-e74aa2aa9425",
+  	"name": "Victor Menezes",
+  	"email": "victor.menezes@polijunior.com.br",
+  	"country": null,
+  	"zipCode": null,
+  	"city": null,
+  	"state": null,
+  	"recentRole": null,
+  	"companySector": null,
+  	"experience": null,
+  	"ocuppationArea": null,
+  	"phone": null,
+  	"recieveRolesInfo": null,
+  	"recieveSelfDevelopmentInfo": null,
+  	"createdAt": "2023-01-04T16:32:28.308Z",
+  	"updatedAt": "2023-01-04T16:32:28.376Z"
+  }
+  ```
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Victor Menezes",
+    	"email": "victor.menezes@polijunior.com.br",
+    	"password": "senha"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1672847368373
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

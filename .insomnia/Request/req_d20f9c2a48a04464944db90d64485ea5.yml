@@ -1,0 +1,65 @@
+_id: req_d20f9c2a48a04464944db90d64485ea5
+type: Request
+parentId: fld_3771bbb50154497eb5177da59380b434
+modified: 1672850113129
+created: 1672848009472
+url: "{{ _.base_url }}/users/discTest"
+name: DiscTest
+description: |-
+  ```response
+  {
+  	"id": "e90528ab-295c-49b9-9004-e74aa2aa9425",
+  	"name": "Victor Menezes",
+  	"email": "victor.menezes@polijunior.com.br",
+  	"password": "$2a$08$eiJDgrnzGFZnzskIBGIPyOMfD8u3frgMFLoLkhBX8E04bYeS0lxXq",
+  	"country": "Brasil",
+  	"zipCode": "07788010",
+  	"city": "Cajamar",
+  	"state": "São Paulo",
+  	"recentRole": "Estagiário",
+  	"companySector": "Tecnologia",
+  	"experience": "Júnior",
+  	"ocuppationArea": "FinTech",
+  	"phone": null,
+  	"recieveRolesInfo": null,
+  	"recieveSelfDevelopmentInfo": null,
+  	"createdAt": "2023-01-04T16:32:28.308Z",
+  	"updatedAt": "2023-01-04T16:34:06.610Z",
+  	"discTest": {
+  		"id": "ce8ea6de-291c-4548-aa11-ecbaebd1a5c4",
+  		"userId": "e90528ab-295c-49b9-9004-e74aa2aa9425",
+  		"answers": "AAAAAAAAAAABADDDBBBBCCCCCCCCCCDDDDDDDDDD",
+  		"feedback": 10,
+  		"D": 30,
+  		"I": 12.5,
+  		"S": 25,
+  		"C": 32.5,
+  		"createdAt": "2023-01-04T16:34:23.744Z",
+  		"updatedAt": "2023-01-04T16:34:23.745Z"
+  	}
+  }
+  ```
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"answers": "AAAAAAAAAAABADDDBBBBCCCCCCCCCCDDDDDDDDDD",
+    	"feedback": 10
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: ""
+metaSortKey: -1672847368273
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,17 @@
+_id: env_5e7b5640a82d4cb6be467f7bd83b936b
+type: Environment
+parentId: env_a15324102bedb188bd552c610d0dc5a9ba43e4bf
+modified: 1672850342182
+created: 1672850310118
+name: prod
+data:
+  base_url: https://werecruiter.polijrinternal.com
+  token: "{% response 'body', 'req_deb39391dc144db9ba32433d70404361',
+    'b64::JC50b2tlbg==::46b', 'always', 60 %}"
+dataPropertyOrder:
+  "&":
+    - base_url
+    - token
+color: "#8f39d5"
+isPrivate: false
+metaSortKey: 1672850310118

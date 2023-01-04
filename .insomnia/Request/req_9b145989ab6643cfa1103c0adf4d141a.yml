@@ -1,0 +1,59 @@
+_id: req_9b145989ab6643cfa1103c0adf4d141a
+type: Request
+parentId: fld_01708f4729c847d084912c403591d30d
+modified: 1672850097524
+created: 1672847613929
+url: "{{ _.base_url }}/users/finishRegister"
+name: FinishRegister
+description: |-
+  ```response
+  {
+  	"id": "e90528ab-295c-49b9-9004-e74aa2aa9425",
+  	"name": "Victor Menezes",
+  	"email": "victor.menezes@polijunior.com.br",
+  	"password": "$2a$08$eiJDgrnzGFZnzskIBGIPyOMfD8u3frgMFLoLkhBX8E04bYeS0lxXq",
+  	"country": "Brasil",
+  	"zipCode": "07788010",
+  	"city": "Cajamar",
+  	"state": "São Paulo",
+  	"recentRole": "Estagiário",
+  	"companySector": "Tecnologia",
+  	"experience": "Júnior",
+  	"ocuppationArea": "FinTech",
+  	"phone": null,
+  	"recieveRolesInfo": null,
+  	"recieveSelfDevelopmentInfo": null,
+  	"createdAt": "2023-01-04T16:32:28.308Z",
+  	"updatedAt": "2023-01-04T16:34:06.610Z"
+  }
+  ```
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"country": "Brasil",
+    	"zipCode": "07788010",
+    	"city": "Cajamar",
+    	"state": "São Paulo",
+    	"recentRole": "Estagiário",
+    	"companySector": "Tecnologia",
+    	"experience": "Júnior",
+    	"ocuppationArea": "FinTech"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: ""
+metaSortKey: -1672847368323
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
